@@ -1,14 +1,28 @@
-baseURL = 'https://nlgtEA.github.io/'
+baseURL = 'https://nlgthuan.github.io/'
 languageCode = 'en-us'
-title = "Thuan's Blog"
-theme = 'archie'
-copyright = "© ThuanN"
+title = "TLTC"
+theme = "archie"
+copyright = "nlgthuan"
+
+pygmentsstyle = "catppuccin-macchiato"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params]
     mode = "auto"
-    customcss = ["css/set.css"]
 
 [[params.social]]
     name = "GitHub"
     icon = "github"
-    url = "https://github.com/nlgtEA"
+    url = "https://github.com/nlgthuan"
+
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

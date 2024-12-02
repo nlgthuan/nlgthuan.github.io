@@ -1,11 +1,108 @@
-+++
-title = 'My First Post'
-date = 2024-02-13T20:41:49+07:00
-draft = true
-+++
+---
+title: "Typography"
+date: 2018-03-18T12:13:38+05:30
+draft: true
+---
 
-## Introduction
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
 
-This is **bold** text, and this is *emphasized* text.
+# Heading 1
 
-Visit the [Hugo](https://gohugo.io) website!
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+## Heading 2
+
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+### Heading 3
+
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+#### Heading 4
+
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+##### Heading 5
+
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+###### Heading 6
+
+Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.
+
+## Typography
+
+Lid est laborum et dolorum fuga, This is [an example](http://example.com/ "Title") inline link. Et harum quidem rerum facilis, **This is bold** and *emphasis* cumque nihilse impedit quo minus id quod amets untra dolor amet sad. While this is `code block()` and following is a `pre` tag
+
+	print 'this is pre tag'
+
+Following is the syntax highlighted code block
+
+```go
+func getCookie(name string, r interface{}) (*http.Cookie, error) {
+	rd := r.(*http.Request)
+	cookie, err := rd.Cookie(name)
+	if err != nil {
+		return nil, err
+	}
+	return cookie, nil
+}
+
+func setCookie(cookie *http.Cookie, w interface{}) error {
+	// Get write interface registered using `Acquire` method in handlers.
+	wr := w.(http.ResponseWriter)
+	http.SetCookie(wr, cookie)
+	return nil
+}
+```
+
+This is blockquote, Will make it *better now*
+
+> 'I want to do with you what spring does with the cherry trees.' <cite>cited ~Pablo Neruda</cite>*
+
+
+> Et harum quidem *rerum facilis* est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit
+
+Unordered list
+
+*   Red
+*   Green
+*   Blue
+
+Ordered list
+
+1.	Red
+2.  Green
+3.  Blue
+
+
+## Images
+
+{{< figure src="https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" title="Dave Herring" >}}
+
+{{< figure src="https://images.unsplash.com/photo-1560032779-0a8809186efd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" title="Dave Herring" >}}
+
+
+## Github Gist
+
+{{< gist spf13 7896402 >}}
+
+## Youtube video
+
+{{< youtube w7Ft2ymGmfc >}}
+
+## Tweet
+
+{{< tweet user="GoHugoIO" id="877500564405444608" >}}
+
+## Vimeo
+
+{{< vimeo id="146022717" >}}
+
+## Instagram
+
+{{< instagram BWNjjyYFxVx >}}
+
+## Callouts
+
+{{< callout emoji="⚡️" text="I guess this works" >}}
