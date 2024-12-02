@@ -10,6 +10,8 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     mode = "auto"
+    mathjax = true
+    katex = true
 
 [[params.social]]
     name = "GitHub"
