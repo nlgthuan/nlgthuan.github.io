@@ -31,7 +31,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `
 The most straightforward approach is to sort two strings and then compare if they are equal.
 #### Complexity
 - Time: $O(n\log{}n)$ - This is due to the sorting process.
-- Space: $ O(1) $ - Normally, sorting does not require extra memory.
+- Space: $O(1)$ - Normally, sorting does not require extra memory.
 
 
 
@@ -47,6 +47,7 @@ Finaly, if the the array contains all 0, 2 strings are anagrams.
 
 #### Implementation
 ```python
+class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         count = [0] * 26
 
