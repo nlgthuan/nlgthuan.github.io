@@ -104,5 +104,3 @@ Ordered list
 {{< instagram BWNjjyYFxVx >}}
 
 ## Callouts
-
-{{< callout emoji="⚡️" text="I guess this works" >}}

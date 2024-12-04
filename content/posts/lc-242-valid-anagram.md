@@ -2,8 +2,14 @@
 title: 'Leetcode - 242 Valid Anagram'
 draft: false
 tags: [leetcode]
+showTags: true
 date: 2024-12-02T22:24:00+07:00
-toc: true
+summary: "Note for Leetcode 242 - Valid Anagram"
+description: "Note for Leetcode 242 - Valid Anagram"
+readTime: true
+autonumber: true
+math: true
+tldr: hehehe
 ---
 
 ## Problem overview
@@ -26,7 +32,7 @@ Given two strings `s` and `t`, return `true` if `t` is an anagram of `
 - `s` and `t` consist of lowercase English letters.
 
 ## Solutions
-### 1. Sorted
+### Sorted
 #### Idea
 The most straightforward approach is to sort two strings and then compare if they are equal.
 #### Complexity
@@ -35,7 +41,7 @@ The most straightforward approach is to sort two strings and then compare if the
 
 
 
-### 2. Hash map
+### Hash map
 #### Idea
 The main idea is to count the frequency of characters in each string, then compare these frequencies to see if there are mismatches.
 Instead of using the hashmap directly, we have a clever way of storing the frequency in an array of length 26 (the number of the characters).

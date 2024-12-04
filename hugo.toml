@@ -1,30 +1,63 @@
 baseURL = 'https://nlgthuan.github.io/'
 languageCode = 'en-us'
-title = "TLTC"
-theme = "archie"
-copyright = "nlgthuan"
+title = "Thuan Ngo"
+theme = "typo"
 
-pygmentsstyle = "catppuccin-macchiato"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[taxonomies]
+tag = 'tags'
 
 [params]
-    mode = "auto"
-    mathjax = true
-    katex = true
+# Meta description
+description = "A personal/tech blog by/of Thuan Ngo"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I'm Thuan, a fullstack developer who sees myself as both an engineer and a craftsman.
+This blog serves as my personal notebook, where I jot down everything I want to share or remember, from small random thoughts to interesting findings.
+
+Feel free to connect with me via the links below ;)"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/nlgthuan"
 
 [[params.social]]
-    name = "GitHub"
-    icon = "github"
-    url = "https://github.com/nlgthuan"
+name = "github"
+url = "https://github.com/nlgthuan"
 
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
 
-[[menu.main]]
-name = "All posts"
+[[params.menu]]
+name = "posts"
 url = "/posts"
-weight = 2
 
-[[menu.main]]
-name = "Tags"
+[[params.menu]]
+name = "tags"
 url = "/tags"
-weight = 4
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'bw'
