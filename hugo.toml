@@ -1,4 +1,4 @@
-baseURL = 'https://thuanngo.dev'
+baseURL = 'https://blog.thuanngo.dev'
 languageCode = 'en-us'
 title = "Thuan Ngo"
 theme = "typo"
