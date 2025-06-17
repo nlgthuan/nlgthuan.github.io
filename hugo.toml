@@ -1,4 +1,4 @@
-baseURL = 'https://nlgthuan.github.io/'
+baseURL = 'https://thuanngo.dev'
 languageCode = 'en-us'
 title = "Thuan Ngo"
 theme = "typo"
@@ -8,7 +8,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A personal/tech blog by/of Thuan Ngo"
+description = "Thuan Ngo's blog"
 
 # Appearance settings
 theme = 'auto'
