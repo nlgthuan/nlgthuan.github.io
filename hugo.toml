@@ -18,7 +18,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
-I'm Thuan, a fullstack developer who sees myself as both an engineer and a craftsman.
+I'm Thuan, an enthusiastic developer who sees myself as both an engineer and a craftsman.
 This blog serves as my personal notebook, where I jot down everything I want to share or remember, from small random thoughts to interesting findings.
 
 Feel free to connect with me via the links below ;)"""
