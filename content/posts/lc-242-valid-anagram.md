@@ -1,6 +1,6 @@
 ---
 title: 'Leetcode - 242 Valid Anagram'
-draft: false
+draft: true
 tags: [leetcode]
 showTags: true
 date: 2024-12-02T22:24:00+07:00
@@ -9,7 +9,6 @@ description: "Note for Leetcode 242 - Valid Anagram"
 readTime: true
 autonumber: true
 math: true
-tldr: hehehe
 ---
 
 ## Problem overview

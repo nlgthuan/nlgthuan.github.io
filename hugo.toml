@@ -55,8 +55,8 @@ name = "posts"
 url = "/posts"
 
 [[params.menu]]
-name = "tags"
-url = "/tags"
+name = "ideas"
+url = "/ideas"
 
 # Syntax highligth on code blocks
 [markup]
